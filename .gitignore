@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Saved Fokker-Planck solutions (regenerated with scripts/run_solver.py)
+*.npz
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
