@@ -1,6 +1,6 @@
 # PADRE: electron transport to hard X-ray polarization
 
-Theoretical model of the transport of flare-accelerated electrons with the Fokker–Planck equation, and calculation of the linear polarization of the hard X-rays** (bremsstrahlung) produced by their angular distribution. 
+Theoretical model of the transport of flare-accelerated electrons with the Fokker–Planck equation, and calculation of the linear polarization of the hard X-rays (bremsstrahlung) produced by their angular distribution. 
 
 **Author:** Milena Andrea Barrios-Gallego 
 
