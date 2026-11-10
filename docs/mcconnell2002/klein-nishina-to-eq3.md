@@ -1,6 +1,6 @@
 # McConnell et al. (2002): from Klein–Nishina (eq. 1) to the azimuthal modulation (eq. 3)
 
-Paper: McConnell, Ryan, Smith, Lin & Emslie, *RHESSI as a Hard X-Ray Polarimeter*, Solar Physics 210, 125–142 (2002). File: `knowledge/2002_McConnell2002-2.pdf`, Section 2 (pp. 129–131).
+Paper: McConnell, Ryan, Smith, Lin & Emslie, *RHESSI as a Hard X-Ray Polarimeter*, Solar Physics 210, 125–142 (2002). 
 
 ---
 
@@ -25,7 +25,7 @@ $$
 **Eq. (3), integrated azimuthal distribution:**
 
 $$
-C(\eta)=A\cos\!\left[2\left(\eta-\phi+\frac{\pi}{2}\right)\right]+B
+C(\eta)=A\cos \left[2\left(\eta-\phi+\frac{\pi}{2}\right)\right]+B
 $$
 
 where $\phi$ is the polarization angle and $A, B$ are fit constants.
@@ -78,13 +78,13 @@ $$
 Using $\cos(x+\pi) = -\cos x$:
 
 $$
--\cos 2(\psi-\phi) = \cos\!\left[2(\psi-\phi)+\pi\right]=\cos\!\left[2\left(\psi-\phi+\frac{\pi}{2}\right)\right].
+-\cos 2(\psi-\phi) = \cos \left[2(\psi-\phi)+\pi\right]=\cos \left[2\left(\psi-\phi+\frac{\pi}{2}\right)\right].
 $$
 
 So
 
 $$
-\frac{d\sigma}{d\Omega}= b(\theta)+a(\theta)\cos\!\left[2\left(\psi-\phi+\frac{\pi}{2}\right)\right].
+\frac{d\sigma}{d\Omega}= b(\theta)+a(\theta)\cos \left[2\left(\psi-\phi+\frac{\pi}{2}\right)\right].
 $$
 
 **This is where the $+\pi/2$ in eq. (3) comes from:** it absorbs the minus sign so that $A$ is positive. The paper reuses the letter $\eta$ in eq. (3), but there it means the azimuth measured in the instrument frame ($\psi$ here). Consequence: the **minimum** of the counts occurs at $\psi=\phi$, i.e. the minimum of the curve marks the plane of polarization (as Fig. 1 states).
@@ -102,7 +102,7 @@ $$
 with $\varepsilon(\theta)$ the geometric efficiency/acceptance. Since $\psi$ only appears in the $\cos 2(\dots)$ factor, it comes out of the integral:
 
 $$
-C(\psi)=A\cos\!\left[2\left(\psi-\phi+\frac{\pi}{2}\right)\right]+B,
+C(\psi)=A\cos \left[2\left(\psi-\phi+\frac{\pi}{2}\right)\right]+B,
 $$
 
 $$
@@ -119,7 +119,7 @@ $$
 A beam with degree of linear polarization $P$ is a mixture: a fraction $P$ fully polarized at angle $\phi$ plus a fraction $1-P$ unpolarized. For the unpolarized part we average over all orientations of $\vec E$: $\langle\cos 2\eta\rangle=0$, so it only contributes to $B$. Result:
 
 $$
-\frac{d\sigma}{d\Omega}= b(\theta)+P\,a(\theta)\cos\!\left[2\left(\psi-\phi+\frac{\pi}{2}\right)\right].
+\frac{d\sigma}{d\Omega}= b(\theta)+P\,a(\theta)\cos \left[2\left(\psi-\phi+\frac{\pi}{2}\right)\right].
 $$
 
 So $B$ is unchanged and $A_p = P\,A_{100}$. With the paper's definitions,
@@ -143,7 +143,7 @@ At $\theta=90^\circ$: $\mu_{100}\approx 0.999$ (20 keV), $0.991$ (50 keV), $0.96
 **Step 1: write eq. (3) with the minus sign back.** Since $\cos(x+\pi)=-\cos x$,
 
 $$
-C(\psi)=B+A\cos\!\left[2\left(\psi-\phi+\tfrac{\pi}{2}\right)\right]=B-A\cos 2(\psi-\phi).
+C(\psi)=B+A\cos \left[2\left(\psi-\phi+\tfrac{\pi}{2}\right)\right]=B-A\cos 2(\psi-\phi).
 $$
 
 **Step 2: put $P$ in.** From eqs. (4)–(6), $A/B=\mu_p=P\,\mu_{100}$, so $A=B\,\mu_{100}P$:
